@@ -8,11 +8,14 @@ const nav_style = {
 	fontStyle: 'italic'
 }
 
-function Nav() {
+function Nav(props) {
   return (
     <div>
       <nav>
-		<h3>Logo</h3>
+      	<div>
+			<h3>Muawya Eldaw</h3>
+			<h5>{props.emailAdd}</h5>
+		</div>
 		<ul className="nav_links">
 			<Link style={nav_style} to="/">
 				<li>Home</li>

@@ -11,7 +11,7 @@ function App() {
     <Router>
       <div className="App">        
           <div>
-            <Nav />
+            <Nav emailAdd="muawya.eldaw@northampton.ac.uk" />
           </div>
 
           <div className="main_div"> 
@@ -24,7 +24,7 @@ function App() {
           </div>
 
           <div>
-            <Nav />
+            <Nav emailAdd="muawya.eldaw@northampton.ac.uk"/>
           </div>
       </div>
    </Router>
